@@ -58,6 +58,10 @@
     text-align: center !important;
   }
 
+  .dropdown-toggle:focus {
+    border: 0 !important;
+  }
+
   .banner-img{
    display:none;
   }
