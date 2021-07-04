@@ -9,19 +9,35 @@
 .nav-item {
   margin-right: 2em;
   text-transform: uppercase;
-  color: darkgrey;
+  color: white;
 }
-
 
 .navbar-body {
   margin-left: auto;
 }
 
+.navbar-background {
+  background: #0b5884;
+}
 .nav-link {
   font-family: 'Open Sans';
+  color: whitesmoke !important;
 }
 .nav-link:hover {
+  background-color: whitesmoke;
+  border-radius: .8rem;
+
   color: #0b5884 !important;
+}
+
+
+.dropdown-menu {
+  border-radius: .75rem !important;
+}
+
+.dropdown-item:hover {
+  background: #0b5884 !important;
+  color: white !important; 
 }
 
 .banner-img{
@@ -33,6 +49,15 @@
  }
 
  @media (max-width: 640px){
+
+  .nav-item{
+    text-align: center;
+  }
+
+  .course-nav {
+    text-align: center !important;
+  }
+
   .banner-img{
    display:none;
   }
