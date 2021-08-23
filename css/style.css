@@ -2,6 +2,27 @@
   font-family: Prompt;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-highlight {
+  background-color: rgba(66,242,247,0.3);
+}
+
+.promotion-course {
+  border-radius: 1.5rem;
+  padding: 1em 1.5em;
+}
+
+.large-text-header {
+  font-size: 36px;
+}
+
+.large-text-paragraph {
+  font-size: 20px;
+}
+
 .logo-nav {
   width: 160px;
 }
@@ -369,8 +390,9 @@ h1.course-title {
 }
 
 .course-promo-img {
-  min-height: 400px;
+  /* min-height: 400px; */
   max-height: 600px;
+  object-fit: contain;
 }
 
 .course-promotion-slide .carousel.slide {
@@ -426,8 +448,9 @@ h1.course-title {
 
 .outer-box {
   /* background: rgb(248, 109, 85); */
-  max-width: 940px;
-  width: 80%;
+  margin-top: 1rem;
+  /* max-width: 940px; */
+  /* width: 80%; */
   /* height: 300px; */
   padding: 2rem 2rem 1.0rem 0.9rem;
   border-radius: .56rem;
@@ -448,7 +471,8 @@ h1.course-title {
 
 .img-box {
   max-width: 200px;
-  width: 60%;
+  width: 100%;
+  margin-right: 1rem;
   /* height: 40%; */
 }
 
@@ -465,6 +489,7 @@ h1.course-title {
 }
 
 .img-box img {
+  max-width: 150px;
   width: 100%;
 }
 
@@ -472,7 +497,7 @@ h1.course-title {
   position: relative;
   top: -1.2rem;
   background: white;
-  width: 100px;
+  /* width: vw; */
   padding: .4rem .7rem;
   border-radius: .75rem;
 }
