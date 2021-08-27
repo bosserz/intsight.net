@@ -7,7 +7,7 @@ html {
 }
 
 .bg-highlight {
-  background-color: rgba(66,242,247,0.3);
+  background-color: rgba(0,117,196,0.3);
 }
 
 .promotion-course {
@@ -305,7 +305,7 @@ h2.course-list-title, h2.blog-header, h2.contact-title, h2.teacher-header, h2.su
 
 h1.course-title {
   font-family: 'Open Sans';
-  font-size: 72px;
+  font-size: 80px;
 }
 
 .btn-primary {
@@ -456,12 +456,12 @@ h1.course-title {
   border-radius: .56rem;
 }
 
-.orange-bg {
-  background: rgba(248, 110, 85, 0.37);
+.dark-blue-bg {
+  background: rgba(91, 133, 170, 0.37);
 }
 
-.blue-bg {
-  background: rgba(91, 102, 252, 0.425);
+.silver-bg {
+  background: rgba(197, 197, 197, 0.425);
 }
 
 .profile-box {
@@ -495,9 +495,10 @@ h1.course-title {
 
 .name-box {
   position: relative;
+  display: inline-block;
+    
   top: -1.2rem;
   background: white;
-  /* width: vw; */
   padding: .4rem .7rem;
   border-radius: .75rem;
 }
