@@ -528,3 +528,16 @@ h1.course-title {
 .success-small-screen {
   display: none;
 }
+
+/* Download Page */
+.download-inner-block {
+  background-color: rgb(256,256,256);
+  border-radius: 0.5rem;
+  margin: .25em .1em;
+  padding: 1em .2em;
+  box-shadow: 0 0 12px rgb(0,0,0,0.1)
+}
+
+.download-anchor {
+  color: rgb(0,0,1);
+}
